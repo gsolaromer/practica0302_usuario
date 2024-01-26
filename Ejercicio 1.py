@@ -33,7 +33,7 @@ class Producto:
         return "Codigo: " + str(self.__codigo) + ", nombre:" + self.__nombre + ", precio: " + str(self.__precio)
     
     def calcular_total (self, unidades):
-        return self.precio*unidades
+        return self.__precio*unidades
     
 p1 = Producto(1, "Producto 1", 5)
 p2 = Producto(2, "Producto 2", 10)
